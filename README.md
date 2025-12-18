@@ -85,8 +85,7 @@ This repository contains three Modules that serve as introductions to many of La
 
 ### Module 1: Create Agents
 
-- Foundational models
-- Prompting
+- Foundational models & Prompting
 - Tool calling
 - Memory
 - multimodal messages
@@ -95,8 +94,7 @@ This repository contains three Modules that serve as introductions to many of La
 ### Module 2: Advanced Agent Tools
 
 - MCP
-- Runtime context (context, ToolRuntime)
-- State
+- Context & State
 - Multi-agent
 - Project: Destination wedding planner
 
@@ -106,7 +104,7 @@ This repository contains three Modules that serve as introductions to many of La
 - HITL
 - Dynamic Prompts/Tool Calling/Model Selection
 - Project: Email agent
-- Agent Chat UI
+- Bonus: Agent Chat UI
 
 ## 📖 Related Resources
 
