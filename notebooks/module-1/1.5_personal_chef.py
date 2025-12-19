@@ -25,10 +25,20 @@ Return recipe suggestions and eventually the recipe instructions to the user, if
 
 """
 
+
+from langchain.chat_models import init_chat_model
+model = init_chat_model(model="meta-llama/llama-4-maverick-17b-128e-instruct",
+                        model_provider="groq",
+                        temperature = 0,
+                        max_retries=3,
+                        timeout=60,
+                        max_tokens=1000
+                        )
+
 from langchain.agents import create_agent
 
 agent = create_agent(
-    model="gpt-5-nano",
+    model=model,
     tools=[web_search],
     system_prompt=system_prompt
 )
